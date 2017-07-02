@@ -60,7 +60,7 @@ function scaleVideoContainer() {
 
     var height = $(window).height() + 5;
     var unitHeight = parseInt(height) + 'px';
-    $('.homepage-hero-module').css('height',unitHeight);
+    $('.container').css('height',unitHeight);
 
 }
 
@@ -97,7 +97,7 @@ function scaleBannerVideoSize(element){
             $(this).width(videoWidth).height(videoHeight);
         }
 
-        $('.homepage-hero-module .video-container video').addClass('fadeIn animated');
+        $('.container .video-container video').addClass('fadeIn animated');
 
     });
 }
