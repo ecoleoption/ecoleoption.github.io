@@ -323,13 +323,14 @@ video{
     width:100%;
     top:0;
     left:0;
+    max-height:450px;
 }
 
 header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/img/header-bg.jpg');
+    /*background-image: url('{{ site.baseurl }}/img/header-bg.jpg');*/
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
