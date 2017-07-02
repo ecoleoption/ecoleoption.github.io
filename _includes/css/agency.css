@@ -319,7 +319,8 @@ fieldset[disabled] .btn-xl.active {
 
 video{
     position: absolute;
-    z-index:0;
+    z-index:-100;
+    width:100%;
     top:0;
     left:0;
 }
