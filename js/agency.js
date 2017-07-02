@@ -37,7 +37,7 @@ $('div.modal').on('show.bs.modal', function() {
 });
 
 
-
+/*
 //jQuery is required to run this code
 $( document ).ready(function() {
 
@@ -100,4 +100,4 @@ function scaleBannerVideoSize(element){
         $('.homepage-hero-module .video-container video').addClass('fadeIn animated');
 
     });
-}
+}*/
