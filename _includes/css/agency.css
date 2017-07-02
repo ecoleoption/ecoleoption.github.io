@@ -274,7 +274,7 @@ fieldset[disabled] .btn-xl.active {
         font-size: 1.5em;
     }
 }
-
+/*
 .homepage-hero-module {
     border-right: none;
     border-left: none;
@@ -315,13 +315,13 @@ fieldset[disabled] .btn-xl.active {
 }
 .video-container video.fillWidth {
     width: 100%;
-}
+}*/
 
 header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    /*background-image: url('{{ site.baseurl }}/img/header-bg.jpg');*/
+    background-image: url('{{ site.baseurl }}/img/header-bg.jpg');
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
