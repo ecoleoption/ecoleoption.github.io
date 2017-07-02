@@ -317,6 +317,13 @@ fieldset[disabled] .btn-xl.active {
     width: 100%;
 }*/
 
+video{
+    position: absolute;
+    z-index:0;
+    top:0;
+    left:0;
+}
+
 header {
     text-align: center;
     color: #fff;
