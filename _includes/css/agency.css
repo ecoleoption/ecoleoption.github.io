@@ -274,7 +274,7 @@ fieldset[disabled] .btn-xl.active {
         font-size: 1.5em;
     }
 }
-/*
+
 .homepage-hero-module {
     border-right: none;
     border-left: none;
@@ -307,13 +307,13 @@ fieldset[disabled] .btn-xl.active {
     position: absolute;
     background: rgba(0, 0, 0, 0.4);
     width: 100%;
-}*/
-.video {
+}
+.video-container video {
     position: absolute;
     z-index: 0;
     bottom: 0;
 }
-.video.fillWidth {
+.video-container video.fillWidth {
     width: 100%;
 }
 
